@@ -1,3 +1,11 @@
 .project {
-  background-color: bisque;
+  /* background-color: bisque; */
+
+  width: 75vw;
+  height: 40vh;
+  margin: auto;
+
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* height: 50vh; */
 }

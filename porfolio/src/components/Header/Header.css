@@ -1,4 +1,5 @@
-.header {
-  background-color: azure;
-  margin: 0;
+.container-header {
+  background-color: rgb(80, 235, 235);
+  /* margin: 0; */
+  width: 100%;
 }
