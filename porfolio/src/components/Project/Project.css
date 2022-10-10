@@ -4,8 +4,30 @@
   width: 75vw;
   height: 40vh;
   margin: auto;
+  padding: 2rem;
 
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* height: 50vh; */
+}
+.picture-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: #3d4351; */
+}
+img {
+  max-height: 50rem;
+  max-width: 50rem;
+  opacity: 0.4;
+}
+.project-title {
+  color: #121317;
+}
+@media screen and (max-width: 571px) {
+  .project-title {
+    font-size: 2vmin;
+    position: relative;
+    /* display: none; */
+    bottom: -2rem;
+  }
 }

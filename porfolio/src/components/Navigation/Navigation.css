@@ -1,3 +1,12 @@
 .list {
   list-style: none;
 }
+a:link {
+  text-decoration: none;
+}
+/* a:visited {
+  color: #1b1c22;
+} */
+a {
+  color: #0c080b;
+}
