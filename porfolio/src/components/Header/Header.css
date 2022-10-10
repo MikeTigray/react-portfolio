@@ -10,3 +10,12 @@
 .name {
   border-right: 0.1rem solid #0c080b;
 }
+@media screen and (max-width: 555px) {
+  .container-header {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+  .name {
+    height: 20%;
+  }
+}
