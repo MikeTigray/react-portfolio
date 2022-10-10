@@ -5,13 +5,14 @@
 }
 .form {
   padding: 0.5rem;
+  color: #191016;
+  font-size: 1rem;
 }
 .submit {
   color: black;
   background-color: transparent;
   transition: outline 0.2s linear;
-  transition: color 2s;
-  transition: 0.5s;
+  transition: color 0.7s, transform 0.5s;
   border: none;
   font-size: 2rem;
 }

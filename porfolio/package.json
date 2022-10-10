@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@emailjs/browser": "^3.7.0",
     "react-icons": "^4.4.0"
   }
 }
