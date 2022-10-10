@@ -6,19 +6,27 @@ export default function Navigation() {
       <ul className="row">
         <li className="col list">
           {" "}
-          <a href="google.com">About Me</a>
+          <a className="anchor" href="google.com">
+            About Me()
+          </a>
         </li>
         <li className="col list">
           {" "}
-          <a href="google.com">Portfolio</a>
+          <a className="anchor" href="google.com">
+            Portfolio()
+          </a>
         </li>
         <li className="col list">
           {" "}
-          <a href="google.com">Contact Me</a>
+          <a className="anchor" href="google.com">
+            Contact Me()
+          </a>
         </li>
         <li className="col list">
           {" "}
-          <a href="google.com">Resume</a>
+          <a className="anchor" href="google.com">
+            Resume()
+          </a>
         </li>
       </ul>
     </nav>

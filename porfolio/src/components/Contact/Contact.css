@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  padding: 0.5rem;
+}
+.submit {
+  color: black;
+  background-color: transparent;
+  transition: outline 0.2s linear;
+  transition: color 2s;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+}
+.submit:hover {
+  color: aliceblue;
+  transform: rotate(20deg);
+}

@@ -4,9 +4,10 @@
 a:link {
   text-decoration: none;
 }
-/* a:visited {
-  color: #1b1c22;
-} */
-a {
+.anchor:hover {
+  color: #6e4965;
+  cursor: pointer;
+}
+.anchor {
   color: #0c080b;
 }
