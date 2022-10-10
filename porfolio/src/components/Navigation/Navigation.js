@@ -1,32 +1,32 @@
 import "./Navigation.css";
-
+import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav className="col container">
       <ul className="row">
         <li className="col list">
           {" "}
-          <a className="anchor" href="google.com">
+          <Link to="/" className="anchor">
             About Me()
-          </a>
+          </Link>
         </li>
         <li className="col list">
           {" "}
-          <a className="anchor" href="google.com">
+          <Link className="anchor" to="/project">
             Portfolio()
-          </a>
+          </Link>
         </li>
         <li className="col list">
           {" "}
-          <a className="anchor" href="google.com">
+          <Link className="anchor" to="/contact">
             Contact Me()
-          </a>
+          </Link>
         </li>
         <li className="col list">
           {" "}
-          <a className="anchor" href="google.com">
+          <Link className="anchor" to="google.com">
             Resume()
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
