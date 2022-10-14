@@ -1,11 +1,10 @@
-// import { Carousel } from "react-bootstrap";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
 } from "react-router-dom";
-// import { Navigate } from "react-router-dom";
+
 import "./components/Project/Project.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
