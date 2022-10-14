@@ -6,7 +6,7 @@ export default function Navigation() {
       <ul className="row">
         <li className="col list">
           {" "}
-          <Link to="/" className="anchor">
+          <Link to="/Home" className="anchor">
             About Me()
           </Link>
         </li>

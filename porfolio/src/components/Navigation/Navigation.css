@@ -7,6 +7,8 @@ a:link {
 .anchor:hover {
   color: #6e4965;
   cursor: pointer;
+  border-bottom: 1px solid black;
+  transition-property: border-bottom;
 }
 .anchor {
   color: #0c080b;
