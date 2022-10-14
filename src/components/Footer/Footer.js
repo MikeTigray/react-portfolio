@@ -6,13 +6,25 @@ export default function Footer() {
   return (
     <div>
       <div className="footer">
-        <a className="anchors" href="https://github.com/MikeTigray">
+        <a
+          className="anchors"
+          target="blank"
+          href="https://github.com/MikeTigray"
+        >
           <FaGithubSquare />
         </a>
-        <a className="anchors" href="https://twitter.com/MikeFromTigray">
+        <a
+          className="anchors"
+          target="blank"
+          href="https://twitter.com/MikeFromTigray"
+        >
           <FaTwitter />
         </a>
-        <a className="anchors" href="https://linkedin.com/in/mikeabay23">
+        <a
+          className="anchors"
+          target="blank"
+          href="https://linkedin.com/in/mikeabay23"
+        >
           <FaLinkedin />
         </a>
       </div>

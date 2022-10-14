@@ -5,9 +5,11 @@ a:link {
   text-decoration: none;
 }
 .anchor:hover {
-  color: #6e4965;
+  /* color: #6e4965; */
+  color: #a676a7;
   cursor: pointer;
-  border-bottom: 1px solid black;
+  border: 1px #a676a7;
+  border-style: groove;
   transition-property: border-bottom;
 }
 .anchor {

@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="col container">
       <ul className="row">
-        <li className="col list">
+        <li className="col list ">
           {" "}
           <Link to="/Home" className="anchor">
             About Me()
