@@ -6,15 +6,15 @@ export default function Footer() {
   return (
     <div>
       <div className="footer">
-        <p>
+        <a className="anchors" href="https://github.com/MikeTigray">
           <FaGithubSquare />
-        </p>
-        <p>
+        </a>
+        <a className="anchors" href="https://twitter.com/MikeFromTigray">
           <FaTwitter />
-        </p>
-        <p>
+        </a>
+        <a className="anchors" href="https://linkedin.com/in/mikeabay23">
           <FaLinkedin />
-        </p>
+        </a>
       </div>
     </div>
   );
