@@ -12,6 +12,10 @@ a:link {
   border-style: groove;
   transition-property: border-bottom;
 }
+
 .anchor {
   color: #0c080b;
+}
+.target {
+  color: white;
 }
