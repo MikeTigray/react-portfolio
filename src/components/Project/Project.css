@@ -15,23 +15,29 @@ img {
 }
 .project-title {
   color: #1d112c;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 900;
 }
 .project-description {
   color: #1d112c;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 400;
   font-style: italic;
 }
 .project-title:hover {
   color: #6b3fa2;
 }
-@media screen and (max-width: 571px) {
+@media screen and (max-width: 572px) {
   .project-title {
-    font-size: 2vmin;
+    font-size: 0.6rem;
     position: relative;
 
-    bottom: -2rem;
+    bottom: -3rem;
+  }
+  .project-description {
+    font-size: 0.4rem;
+    position: relative;
+
+    bottom: -3rem;
   }
 }

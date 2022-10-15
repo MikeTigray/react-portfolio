@@ -1,10 +1,8 @@
 import "./Navigation.css";
 import { Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 export default function Navigation() {
   let location = useLocation().pathname;
-  const [main, setMain] = useState(false);
 
   const handleClick = () => {};
   return (
