@@ -1,5 +1,3 @@
-// import React, { useState } from "react";
-
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -10,22 +8,18 @@ export default function Contact() {
   const form = useRef();
   function sendEmail(e) {
     e.preventDefault();
+    const serviceId = "service_upgpwli";
+    const templateId = "template_dwu64xp";
+    const publicKey = "L2ViLAx26OSfAMZR6";
 
-    emailjs
-      .sendForm(
-        "service_upgpwli",
-        "template_dwu64xp",
-        form.current,
-        "qdzrHVHxkv7KBig_d8QJo"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
   }
 
   return (
@@ -48,12 +42,7 @@ export default function Contact() {
         <textarea name="message" cols={25} rows={2}></textarea>
       </div>
 
-      <button
-        type="submit"
-        value="Send"
-        onSubmit={sendEmail}
-        className="submit"
-      >
+      <button type="submit" value="Send" onClick={sendEmail} className="submit">
         {<FiSend />}
       </button>
     </form>
