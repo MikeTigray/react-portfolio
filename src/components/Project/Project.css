@@ -8,11 +8,8 @@
 .picture-container {
   display: flex;
   justify-content: center;
-  height: 20rem;
+  height: 25rem;
   width: 100%;
-  /* height: 30rem;
-  /* width: 65rem; */
-  /* align-items: center; */
 }
 img {
   height: auto;
