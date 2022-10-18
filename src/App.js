@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./components/Project/Project.css";
 import Footer from "./components/Footer/Footer";
@@ -19,8 +14,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate to="/Home" />} />
-          <Route path="/Home" element={<About />} />
+          <Route path="*" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
