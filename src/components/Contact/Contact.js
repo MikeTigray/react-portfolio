@@ -14,6 +14,7 @@ export default function Contact() {
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
       (result) => {
+        alert("Email was sent!");
         console.log(result.text);
       },
       (error) => {
@@ -33,6 +34,7 @@ export default function Contact() {
         <p>Email address</p>
         <input
           name="user_email"
+          for="email_input"
           placeholder="email-address@email.com"
           type="email"
         />

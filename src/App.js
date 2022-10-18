@@ -19,7 +19,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="*" element={<Navigate to="/Home" />} />
+          <Route path="/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
