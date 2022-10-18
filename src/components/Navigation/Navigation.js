@@ -13,8 +13,8 @@ export default function Navigation() {
           <Link
             id="home"
             onClick={handleClick}
-            to="/"
-            className={location === "/" ? "target" : "anchor"}
+            to="/Home"
+            className={location === "/Home" ? "target" : "anchor"}
           >
             About Me()
           </Link>

@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  // Navigate,
+  Navigate,
 } from "react-router-dom";
 
 import "./components/Project/Project.css";
@@ -19,8 +19,8 @@ function App() {
       <div>
         <Header />
         <Routes>
-          {/* <Route path="/" element={<Navigate to="/Home" />} /> */}
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Navigate to="/Home" />} />
+          <Route path="/Home" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
