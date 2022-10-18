@@ -4,13 +4,14 @@
   margin: auto;
   padding: 2rem;
 }
+
 .picture-container {
   display: flex;
   justify-content: center;
 }
 img {
-  max-height: 50rem;
-  max-width: 50rem;
+  height: auto;
+  max-width: 90%;
   opacity: 0.4;
 }
 .project-title {

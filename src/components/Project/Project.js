@@ -5,13 +5,32 @@ import { Carousel } from "react-bootstrap";
 import pourLoser from "../../images/pour-loser.png";
 import weatherDashboard from "../../images/weather-dashboard.png";
 import workDayScheduler from "../../images/work-day-scheduler.png";
+import connectKid from "../../images/connectKid.png";
+import employeeTracker from "../../images/employee-tracker-sql.png";
 
 const projects = [
+  {
+    image: connectKid,
+    title: "Connect Kid",
+    alt: "Fourth project",
+    link: "https://github.com/MikeTigray/ConnectKid",
+    description:
+      "An application that single parents can utilize in order to connect with other parents' and children within their community",
+  },
+
   {
     image: pourLoser,
     title: "Pour Loser",
     alt: "First project",
     link: "https://github.com/TateFoster/pour-loser-game",
+    description:
+      "A node based app that allows companies to track employees. Uses a SQL database and perform all CRUD operations.",
+  },
+  {
+    image: employeeTracker,
+    title: "Employee Tracker",
+    alt: "Fifth project",
+    link: "https://github.com/MikeTigray/employee_tracker_app",
     description:
       "A web trivia game based on old jeopardy questions. You're presented with a random cocktail recipe if you lose 😉.",
   },
@@ -34,7 +53,7 @@ const projects = [
 export default function Project() {
   return (
     <div className="project">
-      <Carousel className="">
+      <Carousel className="carousel">
         {projects.map((project) => {
           return (
             <Carousel.Item>

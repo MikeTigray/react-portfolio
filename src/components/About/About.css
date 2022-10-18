@@ -18,7 +18,7 @@
   color: #191016;
   text-transform: uppercase;
   animation: wavy 2s infinite;
-  animation-delay: calc(4.8s);
+  animation-delay: calc(0.1s);
 }
 @keyframes wavy {
   100% {
