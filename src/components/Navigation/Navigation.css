@@ -1,0 +1,21 @@
+.list {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+.anchor:hover {
+  /* color: #6e4965; */
+  color: #a676a7;
+  cursor: pointer;
+  border: 1px #a676a7;
+  border-style: groove;
+  transition-property: border-bottom;
+}
+
+.anchor {
+  color: #0c080b;
+}
+.target {
+  color: #b3566f;
+}
