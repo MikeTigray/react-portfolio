@@ -6,6 +6,24 @@
   justify-content: center;
 }
 .item {
-  padding: 1rem;
-  list-style: circle;
+  padding: 2rem;
+
+  width: 20rem;
+}
+.item li {
+  list-style: none;
+  font-size: 20px;
+}
+.item li ::before {
+  content: "🔗 ";
+}
+.item li a:link {
+  color: rgb(135, 157, 176);
+}
+.item li a:hover {
+  color: rgb(31, 65, 95);
+  font-weight: 500;
+}
+.item li a:visited {
+  text-decoration: none;
 }

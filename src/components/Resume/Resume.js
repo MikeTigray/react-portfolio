@@ -7,40 +7,56 @@ export default function Resume() {
         <div>
           {" "}
           <ul className="item">
-            Skills:
+            <h3>Skillset</h3>
             <li>Javascript</li>
+            <li>React</li>
             <li>NodeJS</li>
             <li>ExpressJS</li>
-            <li>NoSql</li>
-            <li>Sql</li>
+            <li>NoSql-MySQL</li>
+            <li>Sql-MongoDB</li>
             <li>GraphQl</li>
             <li>Heroku</li>
           </ul>
         </div>
 
-        <div className="item"></div>
         <ul className="item">
-          Projects:
+          <h3>Projects</h3>
           <li>
             {" "}
-            <a href="https://github.com/MikeTigray/ConnectKid">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/ConnectKid"
+            >
               Connect Kid
             </a>{" "}
           </li>
           <li>
             {" "}
-            <a href="https://github.com/TateFoster/pour-loser-game">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/TateFoster/pour-loser-game"
+            >
               Pour Loser
             </a>{" "}
           </li>
           <li>
             {" "}
-            <a href="https://github.com/MikeTigray/employee_tracker_app">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/employee_tracker_app"
+            >
               Employee Tracker
             </a>{" "}
           </li>
           <li>
-            <a href="https://github.com/MikeTigray/weather-dashboard">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/weather-dashboard"
+            >
               Weather Dashboard
             </a>{" "}
           </li>
