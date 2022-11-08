@@ -1,5 +1,5 @@
 import "./Resume.css";
-import pdf from "../../images/resume.pdf";
+import pdf from "../../images/Micheale_Abay_Resume.pdf";
 export default function Resume() {
   return (
     <div>
