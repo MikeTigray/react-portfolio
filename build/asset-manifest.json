@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.22b45746.css",
+    "main.js": "/react-portfolio/static/js/main.44f52e56.js",
+    "static/media/pour-loser.png": "/react-portfolio/static/media/pour-loser.421c135b6c62b782b3d9.png",
+    "static/media/connectKid.png": "/react-portfolio/static/media/connectKid.a5a78a06b3f1f44f1bb1.png",
+    "static/media/employee-tracker-sql.png": "/react-portfolio/static/media/employee-tracker-sql.222f81b5d8af5561ce08.png",
+    "static/media/social.png": "/react-portfolio/static/media/social.61fd7376ce66d7b91dc8.png",
+    "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.cdb86fae3e2494aeceeb.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.231415b80b72c369ff8b.png",
+    "static/media/Micheale_Abay_Resume.pdf": "/react-portfolio/static/media/Micheale_Abay_Resume.fd1a840d80d1d8a25e6b.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.22b45746.css.map": "/react-portfolio/static/css/main.22b45746.css.map",
+    "main.44f52e56.js.map": "/react-portfolio/static/js/main.44f52e56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22b45746.css",
+    "static/js/main.44f52e56.js"
+  ]
+}
