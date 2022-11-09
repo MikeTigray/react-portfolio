@@ -1,5 +1,5 @@
 .project {
-  width: 100vw;
+  width: 75vw;
   height: 50vh;
   margin: auto;
   padding: 2rem;
@@ -31,6 +31,9 @@ img {
   color: #6b3fa2;
 }
 @media screen and (max-width: 572px) {
+  .project {
+    width: 100vw;
+  }
   .project-title {
     font-size: 1rem;
     position: relative;
