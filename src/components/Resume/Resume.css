@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+.resume-list {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  padding: 3rem;
+}
+.item li {
+  list-style: none;
+  width: 10em;
+  white-space: nowrap;
+}
+.item li ::before {
+  content: "🔗 ";
+}
+.item li a:link {
+  color: rgb(135, 157, 176);
+}
+.item li a:hover {
+  color: rgb(31, 65, 95);
+  font-style: italic;
+  font-weight: 500;
+}
+.item li a:visited {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .item {
+    padding: 0.5rem;
+  }
+
+  .item li {
+    font-size: 10px;
+  }
+}

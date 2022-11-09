@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+.container-header {
+  font-family: "Inconsolata";
+  font-size: 1.2rem;
+  padding: 1rem;
+  /* background-color: #3d4351; */
+  /* margin: 0; */
+  width: 100%;
+}
+.name {
+  border-right: 0.1rem solid #0c080b;
+}
+@media screen and (max-width: 555px) {
+  .container-header {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+  .name {
+    height: 20%;
+  }
+}
