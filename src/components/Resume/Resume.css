@@ -27,3 +27,11 @@
 .item li a:visited {
   text-decoration: none;
 }
+@media screen and (max-width: 650px) {
+  .item {
+    width: 15rem;
+  }
+  .item li {
+    white-space: nowrap;
+  }
+}

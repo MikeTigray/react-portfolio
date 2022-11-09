@@ -60,6 +60,24 @@ export default function Resume() {
               Weather Dashboard
             </a>{" "}
           </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/Readme-file-generator"
+            >
+              ReadMe file generator
+            </a>{" "}
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/social-networking-app-api"
+            >
+              Social networking app
+            </a>{" "}
+          </li>
         </ul>
       </div>
       <div className="container">
