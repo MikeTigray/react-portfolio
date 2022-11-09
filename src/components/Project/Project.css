@@ -1,6 +1,6 @@
 .project {
-  width: 75vw;
-  height: 40vh;
+  width: 100vw;
+  height: 50vh;
   margin: auto;
   padding: 2rem;
 }
@@ -43,6 +43,7 @@ img {
 
     bottom: -3rem;
   }
+
   .picture-container {
     height: 10rem;
     width: 100%;
