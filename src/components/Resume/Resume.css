@@ -1,18 +1,16 @@
 .container {
   text-align: center;
 }
-.list {
+.resume-list {
   display: flex;
   justify-content: center;
 }
 .item {
-  padding: 2rem;
-
-  width: 20rem;
+  padding: 3rem;
 }
 .item li {
   list-style: none;
-  font-size: 20px;
+  width: 10em;
   white-space: nowrap;
 }
 .item li ::before {
@@ -23,17 +21,18 @@
 }
 .item li a:hover {
   color: rgb(31, 65, 95);
-  font-weight: 500;
+  font-style: italic;
+  /* font-weight: 500; */
 }
 .item li a:visited {
   text-decoration: none;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .item {
-    width: 8rem;
+    padding: 1rem;
   }
 
   .item li {
-    font-size: 12px;
+    font-size: 10px;
   }
 }

@@ -3,7 +3,7 @@ import pdf from "../../images/Micheale_Abay_Resume.pdf";
 export default function Resume() {
   return (
     <div>
-      <div className="list ">
+      <div className="resume-list ">
         <div>
           {" "}
           <ul className="item">
@@ -12,6 +12,7 @@ export default function Resume() {
             <li>React</li>
             <li>NodeJS</li>
             <li>ExpressJS</li>
+            <li>REST API</li>
             <li>NoSql-MySQL</li>
             <li>Sql-MongoDB</li>
             <li>GraphQl</li>

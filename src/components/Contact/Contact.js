@@ -27,12 +27,18 @@ export default function Contact() {
     <form ref={form} className="contact">
       <div className="form">
         <p>Full name</p>{" "}
-        <input name="user_name" placeholder="Your name" type="text" />
+        <input
+          htmlFor="user_name"
+          name="user_name"
+          placeholder="Your name"
+          type="text"
+        />
       </div>
       <div className="form">
         {" "}
         <p>Email address</p>
         <input
+          htmlFor="user_email"
           name="user_email"
           for="email_input"
           placeholder="email-address@email.com"
