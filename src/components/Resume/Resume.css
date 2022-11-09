@@ -13,6 +13,7 @@
 .item li {
   list-style: none;
   font-size: 20px;
+  white-space: nowrap;
 }
 .item li ::before {
   content: "🔗 ";
@@ -29,9 +30,10 @@
 }
 @media screen and (max-width: 650px) {
   .item {
-    width: 15rem;
+    width: 8rem;
   }
+
   .item li {
-    white-space: nowrap;
+    font-size: 12px;
   }
 }

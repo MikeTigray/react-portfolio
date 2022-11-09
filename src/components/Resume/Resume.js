@@ -78,6 +78,15 @@ export default function Resume() {
               Social networking app
             </a>{" "}
           </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/random-password-generator"
+            >
+              Random password generator
+            </a>{" "}
+          </li>
         </ul>
       </div>
       <div className="container">
