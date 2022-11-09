@@ -7,7 +7,7 @@ import weatherDashboard from "../../images/weather-dashboard.png";
 import workDayScheduler from "../../images/work-day-scheduler.png";
 import connectKid from "../../images/connectKid.png";
 import employeeTracker from "../../images/employee-tracker-sql.png";
-
+import social from "../../images/social.png";
 const projects = [
   {
     image: connectKid,
@@ -49,6 +49,14 @@ const projects = [
     link: "https://github.com/MikeTigray/work-day-scheduler",
     description: "A Javascript scheduler application to plan out your day.",
   },
+  {
+    image: social,
+    title: "Social networking app",
+    alt: "Sixth project",
+    link: "https://github.com/MikeTigray/social-networking-app-api",
+    description:
+      "A REST-full API that allows friends to share thoughts & reactions.",
+  },
 ];
 export default function Project() {
   return (
@@ -66,7 +74,7 @@ export default function Project() {
               </div>
               <Carousel.Caption>
                 <a href={project.link} className="project-title">
-                  👉🏼 {project.title}
+                  🖇 {project.title}
                 </a>
                 <p className="project-description ">{project.description}</p>
               </Carousel.Caption>

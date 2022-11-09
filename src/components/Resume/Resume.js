@@ -88,6 +88,15 @@ export default function Resume() {
               Random password generator
             </a>{" "}
           </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/MikeTigray/team-profile-generator"
+            >
+              Team profiles generator
+            </a>{" "}
+          </li>
         </ul>
       </div>
       <div className="container">
